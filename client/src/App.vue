@@ -5,12 +5,14 @@
 </template>
 
 <script>
-
+import GuestForm from './components/GuestForm.vue';
+import GuestList from './components/GuestList.vue';
 
 export default {
   name: 'App',
   components: {
-
+    'guest-form': GuestForm,
+    'guest-list': GuestList
   }
 }
 </script>
